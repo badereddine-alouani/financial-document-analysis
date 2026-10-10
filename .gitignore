@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Machine Learning: Models & Weights
+models/
+**/models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Data & Caches
+data/
+.cache/
